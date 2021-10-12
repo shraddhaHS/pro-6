@@ -1,0 +1,160 @@
+html * {
+    font-size: 16.5px;
+    font-family: 'Metropolis', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   
+    line-height: 1.6;
+  
+}
+
+@font-face {
+    font-family: 'Metropolis', sans-serif;
+                                              
+    src: url(metropolis/Metropolis-Regular.otf);
+}
+h1 {
+    font-size: 2.5em !important;
+    letter-spacing: 0.01em;
+}
+.navbar-brand {
+    font-size: 19px !important; 
+   font-weight: bold;
+}
+.skills {
+    background-color: #f2f6fc!important;
+}
+.skills::before  {
+    content: "";
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+ 
+    background-color: white;
+    clip-path: ellipse(53% 100% at 50% 0% );
+}
+.skills::after  {
+    content: "";
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+ 
+    background-color:#f2f6fc!important ;
+    clip-path: ellipse(60% 100% at 50% 0%);
+    margin-bottom: 20px;
+}
+
+.contact::before{
+    content: "";
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+ 
+    background-color: white;
+    clip-path: ellipse(53% 100% at 50% 0% );
+
+}
+.contact::after{
+    content: "";
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+ 
+    background-color:#f2f6fc!important ;
+    clip-path: ellipse(60% 100% at 50% 0%);
+    margin-bottom: 20px;
+}
+.text{
+    color: white;
+   
+    font: .75rem;
+ position: absolute;
+ top: 50%;
+ left: 35%;
+   
+    font-weight: 700;
+   
+    text-transform: uppercase;
+
+}
+
+.hover-text{
+    position: absolute;
+    background-color: rgba(0,97,242,.9);
+    opacity: 0;
+    top: 0;
+    left: 0;
+  border-radius: .25rem;
+    height: 100%;
+    width: 100%;
+ transition: all  0.5s ease-in-out;
+}
+
+.card-box{
+    position: relative;
+    border-radius: 0.35rem;
+   
+vertical-align: middle;
+}
+.card-box:hover .hover-text {
+    opacity: 0.9;
+
+}
+.contact {
+    background-color:#f2f6fc!important ;
+}
+.card {
+
+  border: 0 !important;
+}
+
+footer a , footer {
+    color: rgba(223, 223, 223, 0.692) !important;
+}
+.heading {
+    font-weight: 700 !important;
+}
+footer {
+   background-color:  #212832;
+}
+i{
+    font-size: 20px;
+    padding: 0 2px 0 2px;
+}
+.nav-head , .dropdown-header{
+    letter-spacing: .125em;
+    font-size: .75rem !important;
+    font-weight: 700;
+}
+  li{
+    font-size: 0.9rem !important;
+}
+
+
+  .dropdown-menu-center {
+    left: 44% !important;
+    right: auto !important;
+    border: 0 !important;
+    transform: translate(-50%, 0) !important;
+  }
+  .dropdown-menu-down {
+    left: 75% !important;
+    right: auto !important;
+    border: 0 !important;
+    transform: translate(-50%, 0) !important;
+  }
+  .dropdown-menu-below{
+    left: 60% !important;
+    right: auto !important;
+    border: 0 !important;
+    transform: translate(-50%, 0) !important;
+  }
+ 
+ 
